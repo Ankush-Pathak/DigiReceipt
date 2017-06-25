@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:weightSum="10">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Name 1 : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewFDName1"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="15sp" />
+
+            <TextView
+                android:text="Name 2 : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewFDName2"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="15sp" />
+
+            <TextView
+                android:text="Name 3 : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewFDName3"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="15sp" />
+
+            <TextView
+                android:text="Institute : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewFDInstitute"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="15sp" />
+
+            <TextView
+                android:text="Phone : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewFDPhone"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="15sp" />
+
+            <TextView
+                android:text="Email notification : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewFDEmailSent"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:text="Attendance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBoxFDAttendance"
+                android:textSize="15sp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:text="Events : "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewFDEv"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="15sp" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:id="@+id/listViewFDEvents"
+                android:layout_height="85dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:text="Ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonFDOk"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Sign Out" android:showAsAction="ifRoom"
+        android:id="@+id/menuSignOut" />
+    <item android:title="Scan a QR code"
+        android:id="@+id/menuScanQR" />
+    <item android:title="History"
+        android:id="@+id/menuHistory" />
+    <item android:title="About"
+        android:id="@+id/menuAbout" />
+</menu>
